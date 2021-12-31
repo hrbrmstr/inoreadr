@@ -1,6 +1,6 @@
 Package: inoreadr
 Type: Package
-Title: inoreadr Title Goes Here Otherwise CRAN Checks Fail
+Title: Access and Orchestrate Inoreader Feeds, Preferences, and Metadata
 Version: 0.1.0
 Date: 2021-12-31
 Authors@R: c(
@@ -8,17 +8,23 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
-URL: https://git.rud.is/hrbrmstr/inoreadr
-BugReports: https://git.rud.is/hrbrmstr/inoreadr/issues
+Description: Inoreader is a powerful content reading platform, which allows you to discover and 
+    consume relevant information on any topic. It can convert any meaningful information stream 
+    into a feed and the content is curated and served at a single and convenient place. Tools are 
+    provided to access and orchestrate feeds, preferences, and metadata.
+URL: https://github.com/hrbrmstr/inoreadr
+BugReports: https://github.com/hrbrmstr/inoreadr/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests:
     tinytest
 Depends:
     R (>= 3.6.0)
 Imports:
-    httr2,
-    jsonlite
+    httr,
+    jsonlite,
+    anytime,
+    stringi,
+    curl
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2

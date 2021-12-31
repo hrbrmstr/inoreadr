@@ -4,15 +4,18 @@
 \name{inoreadr}
 \alias{inoreadr}
 \alias{inoreadr-package}
-\title{...}
+\title{Access and Orchestrate Inoreader Feeds, Preferences, and Metadata}
 \description{
-A good description goes here otherwise CRAN checks fail.
+Inoreader is a powerful content reading platform, which allows you to discover and
+consume relevant information on any topic. It can convert any meaningful information stream
+into a feed and the content is curated and served at a single and convenient place. Tools are
+provided to access and orchestrate feeds, preferences, and metadata.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://git.rud.is/hrbrmstr/inoreadr}
-  \item Report bugs at \url{https://git.rud.is/hrbrmstr/inoreadr/issues}
+  \item \url{https://github.com/hrbrmstr/inoreadr}
+  \item Report bugs at \url{https://github.com/hrbrmstr/inoreadr/issues}
 }
 
 }

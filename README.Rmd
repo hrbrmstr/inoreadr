@@ -23,6 +23,20 @@ The following functions are implemented:
 hrbrpkghelpr::describe_ingredients()
 ```
 
+### TODO
+
+Implement the following API endpoints:
+
+- Item IDs
+- Stream preferences list
+- Stream preferences set
+- Rename tag
+- Delete tag
+- Edit tag
+- Mark all as read
+- Create active search
+- Delete active search
+
 ## Installation
 
 ```{r install-ex, results='asis', echo=FALSE, cache=FALSE}
