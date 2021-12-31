@@ -8,7 +8,9 @@ by](https://img.shields.io/badge/Keybase-Verified-brightgreen.svg)](https://keyb
 %](https://img.shields.io/badge/Signed_Commits-100%25-lightgrey.svg)
 [![R-CMD-check](https://github.com/hrbrmstr/inoreadr/workflows/R-CMD-check/badge.svg)](https://github.com/hrbrmstr/inoreadr/actions?query=workflow%3AR-CMD-check)
 [![Linux build
-Status](https://travis-ci.org/hrbrmstr/inoreadr.svg?branch=master)](https://travis-ci.org/hrbrmstr/inoreadr)  
+Status](https://travis-ci.org/hrbrmstr/inoreadr.svg?branch=master)](https://travis-ci.org/hrbrmstr/inoreadr)
+[![Coverage
+Status](https://codecov.io/gh/hrbrmstr/inoreadr/branch/master/graph/badge.svg)](https://codecov.io/gh/hrbrmstr/inoreadr)
 ![Minimal R
 Version](https://img.shields.io/badge/R%3E%3D-3.6.0-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -56,6 +58,7 @@ Implement the following API endpoints:
 ## Installation
 
 ``` r
+remotes::install_github("hrbrmstr/inoreadr")
 ```
 
 NOTE: To use the ‘remotes’ install options you will need to have the
@@ -75,10 +78,10 @@ packageVersion("inoreadr")
 
 | Lang | # Files |  (%) | LoC |  (%) | Blank lines |  (%) | # Lines |  (%) |
 |:-----|--------:|-----:|----:|-----:|------------:|-----:|--------:|-----:|
-| R    |      10 | 0.38 | 140 | 0.38 |          51 | 0.32 |      87 | 0.34 |
+| R    |      10 | 0.38 | 140 | 0.38 |          50 | 0.32 |      89 | 0.34 |
 | YAML |       2 | 0.08 |  35 | 0.10 |          10 | 0.06 |       2 | 0.01 |
-| Rmd  |       1 | 0.04 |   8 | 0.02 |          18 | 0.11 |      39 | 0.15 |
-| SUM  |      13 | 0.50 | 183 | 0.50 |          79 | 0.50 |     128 | 0.50 |
+| Rmd  |       1 | 0.04 |   8 | 0.02 |          18 | 0.12 |      39 | 0.15 |
+| SUM  |      13 | 0.50 | 183 | 0.50 |          78 | 0.50 |     130 | 0.50 |
 
 clock Package Metrics for inoreadr
 
